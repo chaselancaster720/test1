@@ -1,0 +1,65 @@
+html, body{
+  font-family: cursive;
+  margin:0;
+  }
+
+  header{
+  background-color: #8080ff;
+  padding:40px;
+  text-align: center;
+  }
+h1{
+  font-size: 90px;
+  color: white;
+}
+
+header img{
+  border-radius: 150px;
+  width: 700px;
+  border: 10px solid #ff0000;
+}
+
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+img.big-image{
+  max-width: 80%
+}
+
+p.caption{
+  font-size: 16px;
+  color: lightgrey;
+  font-style: italic;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+footer{
+  margin-top: 20px;
+  padding: 40px 20px;
+  background-color: #cccccc
+}
+
+footer ul{
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+  /*<header>
+  <img src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_1522853192/truckstop-com.png">
+  <h1>Welcome!</h1>
+</header>*/
