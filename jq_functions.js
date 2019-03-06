@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(function(){
-      $("#accordion").accordion();
-      });
-    });
+  $("button").click(function(){
+    $("h1,h2,p").toggleClass("red");
+  });
+});
